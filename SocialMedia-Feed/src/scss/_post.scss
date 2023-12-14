@@ -1,0 +1,45 @@
+.post_div {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+
+  .post_info {
+    border: 1px solid black;
+    width: 70%;
+    height: auto;
+
+    #post_img {
+      width: 100%;
+      height: 40%;
+    }
+
+    #post_interact {
+      background-color: lightgray;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        color: black;
+      }
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 40%;
+    }
+
+    #post_content {
+      #title {
+        text-align: center;
+      }
+      #content {
+        padding: 2%;
+        text-align: justify;
+      }
+    }
+  }
+}
