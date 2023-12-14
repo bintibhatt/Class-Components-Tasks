@@ -1,0 +1,112 @@
+#light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+  #light form {
+    max-width: 400px; }
+    #light form input,
+    #light form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 2px solid #4a90e2;
+      border-radius: 8px;
+      font-size: 18px;
+      color: #333;
+      transition: border-color 0.3s;
+      background-color: #fff;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+      #light form input:focus,
+      #light form textarea:focus {
+        border-color: #f7931e; }
+    #light form textarea {
+      min-height: 150px; }
+    #light form button {
+      width: 100%;
+      padding: 15px;
+      background-color: #f7931e;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+      #light form button:hover {
+        background-color: #d57800; }
+  #light .change_theme_btn {
+    width: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00263d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+    #light .change_theme_btn:hover {
+      background-color: #006ba9; }
+
+#dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+  #dark form {
+    max-width: 400px; }
+    #dark form ::placeholder {
+      color: #fff; }
+    #dark form input,
+    #dark form textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 2px solid #4a90e2;
+      border-radius: 8px;
+      font-size: 18px;
+      background-color: #444;
+      color: #fff;
+      transition: border-color 0.3s;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+      #dark form input:focus,
+      #dark form textarea:focus {
+        border-color: #f7931e; }
+    #dark form textarea {
+      min-height: 150px; }
+    #dark form button {
+      width: 100%;
+      padding: 15px;
+      background-color: #f7931e;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+      #dark form button:hover {
+        background-color: #d57800; }
+  #dark .change_theme_btn {
+    width: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1ea7f7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+    #dark .change_theme_btn:hover {
+      background-color: #0080ca; }
